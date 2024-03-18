@@ -49,12 +49,14 @@ body {
 	font-family: var(--font-family);
 	color: var(--text-color);
 	background-color: var(--background-color);
+	
 }
 html {
 	overflow-y: scroll;
 }
 body {
-	max-width: 40em;
+	max-width: 60em;
+	padding-bottom: 1%;
 }
 
 /* https://www.a11yproject.com/posts/how-to-hide-content/ */
@@ -253,4 +255,10 @@ a[href].header-anchor:focus,
 
 h2 + .header-anchor {
 	font-size: 1.5em;
+}
+
+footer{
+	text-align: center;
+	font-size: larger;
+	padding-top: 3%;
 }

@@ -100,7 +100,7 @@ main :first-child {
 }
 
 header {
-	border-bottom: 1px dashed var(--color-gray-20);
+	margin-bottom: 3%;
 }
 header:after {
 	content: "";
@@ -151,7 +151,8 @@ header {
 	gap: 1em .5em;
 	flex-wrap: wrap;
 	align-items: center;
-	padding: 1em;
+	padding-top: 1em;
+	padding-bottom: 2em;
 }
 .home-link {
 	font-size: 1em; /* 16px /16 */
@@ -163,7 +164,14 @@ header {
 }
 
 /* Nav */
+.navbar-nav {
+    margin: 0;
+}
 
+.container {
+	padding-left: 0;
+	padding-right: 0;
+}
 
 /* Posts list */
 .postlist {

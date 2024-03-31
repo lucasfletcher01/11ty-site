@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../style.css">
+
+    <title>The DOM Practical</title>
+  </head>
+  <body>
+	
+<h1>The DOM Practical</h1>
+
+<ul class="post-metadata">
+	<li><time datetime="2024-03-31">31 March 2024</time></li>
+	<li><a href="/tags/second-tag/" class="post-tag">JavaScript</a></li>
+</ul>
+
+<p>For the final week of the bootcamp, the session involved practical tasks based on the DOM, which was what I was introduced to in the previous week. This was probably the longest session on the course, as it included the most code, and it was one of the more difficult sessions, which could be expected as it was the final session on the course.</p>
+<p>The main task for this week was to create a page that showcases some animals. The page must contain some filters that will show / hide the animals based on which filters are clicked. For example, I chose to have images of bears, dolphins, ducks and frogs, and when one animal filter is clicked, the other animals get hidden from the page.</p>
+<p>I began by getting 4 free images of the chosen animals and adding them to the page, with each image containing a class with the name of the animal. Then added a search input above the images and 5 buttons, each being a button for the 4 animals, with the final one being 'Show All'. These buttons would function as a filter for the images.</p>
+<p>I then had to make the filters actually work. This included adding more classes and attributes to the buttons, looping through the buttons in an array, adding event listeners, and adding display:block to the containers that weren't active. I then added a keyup event to the search box, which would allow the user to search for the animal name in addition to using the buttons.</p>
+<p>Overall, using the DOM and learning how it works was quite a challenge, but using it to filter images on a page did make it easier to understand. I definitely feel like I would need to revisit this in the future, to fully familiarise myself with the DOM, and to make sure I understand how it's used to perform different tasks.</p>
+<p><img src="dom-practical-1.png" width="100%" height="100%" alt="The DOM Practical"></p>
+<p><img src="dom-practical-2.png" width="100%" height="100%" alt="The DOM Practical"></p>
+
+<ul class="links-nextprev"><li>Previous: <a href="/blog/intro-to-the-dom/index.html/">Intro to the DOM</a></li>
+</ul>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
